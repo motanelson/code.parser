@@ -1,6 +1,17 @@
-﻿String concats(String a,String b,String c){
-    return a+b+c;
-}
-String s=concats("Hello","," ," World!");
+﻿using System;
 
-Console.WriteLine(s);
+class MainApp
+{
+
+    static String concats(String a,String b,String c){
+       return a+b+c;
+    }
+
+    public static void Main()
+    {
+        String s=concats("Hello","," ," World!");
+
+        Console.WriteLine(s);
+
+    }
+}
